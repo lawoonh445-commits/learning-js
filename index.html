@@ -5,11 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript Learning</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <script src="03.js" defer></script>
 </head>
 <body>
-    <h1>Learn Vanilla JavaScript</h1>
-    <p id="message">Hello, Student!</p>
-    <button id="changeButton">Click Me</button>
+    <main class="lesson-shell">
+        <header class="topbar">
+            <a class="wordmark" href="#">script<span>/</span>school</a>
+            <span class="course-label">VANILLA JAVASCRIPT<span class="course-dot"></span>LESSON 01</span>
+        </header>
+
+        <section class="lesson-layout" aria-labelledby="lesson-title">
+            <div class="lesson-copy">
+                <p class="eyebrow"><span class="eyebrow-line"></span>YOUR FIRST INTERACTION</p>
+                <h1 id="lesson-title">Learn<br>by<em>doing.</em></h1>
+                <p class="intro">A little JavaScript goes a long way. Start with one click and watch the page respond.</p>
+                <div class="lesson-index"><span>01</span><span class="index-rule"></span><span>THE DOM</span></div>
+            </div>
+
+            <section class="demo-panel" aria-label="JavaScript interaction demo">
+                <div class="panel-topline">
+                    <span class="window-dots" aria-hidden="true"><i></i><i><i></i></span>
+                    <span class="panel-title">A message from JavaScript</span>
+                    <span class="live-indicator">LIVE</span>
+                </div>
+                <div class="panel-body">
+                    <p class="code-hint"><span>01</span>document.querySelector(<b>'#message'</b>)</p>
+                    <p id="message" aria-live="polite">Hello, Student!</p>
+                    <button id="changeButton" type="button">
+                        <span>Run the code</span>
+                        <span class="button-arrow" aria-hidden="true">&#8594;</span>
+                    </button>
+                </div>
+                <div class="panel-foot"><span>OUTPUT</span><span class="output-state"><i></i> READY</span></div>
+            </section>
+        </section>
 </body>
 </html>

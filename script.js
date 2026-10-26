@@ -1,9 +1,9 @@
-// const button = document.getElementById("changeButton");
-// const message = document.getElementById("message");
+const button = document.getElementById("changeButton");
+const message = document.getElementById("message");
 
-// button.addEventListener("click", function () {
-//     message.textContent = "You have learned your first JavaScript interaction!";
-// });
+button.addEventListener("click", function () {
+     message.textContent = "You have learned your first JavaScript interaction!";
+ });
 
 // Variable
 
